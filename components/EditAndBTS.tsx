@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
@@ -26,7 +26,6 @@ const btsItems = [
   { id: "b16", type: "video", src: "/bts/WhatsApp Video 2026-10-16 at 12.37.09 PM.mp4",  alt: "BTS video" },
   { id: "b17", type: "image", src: "/bts/WhatsApp Image 2026-10-16 at 12.37.29 PM.jpeg", alt: "Behind lens" },
   { id: "b18", type: "video", src: "/bts/WhatsApp Video 2026-10-16 at 12.37.19 PM.mp4",  alt: "BTS video" },
-  { id: "b19", type: "image", src: "/bts/WhatsApp Image 2026-10-16 at 12.37.31 PM.jpeg", alt: "Set life" },
 ];
 
 interface GridItem {
